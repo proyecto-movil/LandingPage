@@ -18,6 +18,13 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   min-height: 100vh;
 }
+.mobile-reserve{
+  background-image: url("../img/About_Mobile/reserveXl.png");
+  background-position-x: 30%;
+  background-position-y: 14%;
+  background-size: 55%;
+  background-repeat: no-repeat;
+}
 /*fin seccion about mobile*/
 /*seccion de about call*/
 
