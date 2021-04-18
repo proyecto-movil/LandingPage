@@ -68,9 +68,6 @@ body::-webkit-scrollbar-thumb {
 
 /*Parte de Seccion Mision y Vision*/
 @media screen and (min-width: 992px) {
-  .seccion_MisionYVision {
-    height: 100vh;
-  }
   .mision {
     transform: translateX(40px);
   }
@@ -91,6 +88,8 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .seccion_MisionYVision {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   background-image: url("../img/Mision_Vision_Seccion/delvelop_work.jpg");
@@ -98,16 +97,27 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
+}
+
+.mision {
+  position: relative;
+}
+.vision{
+  position: relative;
 }
 .seccion_MisionYVision:before {
   content: "";
-  width: 100%;
-  min-height: 100vh;
   position: absolute;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(34, 40, 49, 1)
-  );
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(34, 40, 49, 0.5);
+  /*background-image: linear-gradient(*/
+  /*rgba(255, 255, 255, 0.1),*/
+  /*rgba(34, 40, 49, 0.7)*/
+  /*);*/
 }
 .circulo {
   display: flex;
@@ -116,6 +126,7 @@ body::-webkit-scrollbar-thumb {
   border: 5px solid #2699fb;
   border-radius: 50%;
 }
+
 .circulo:after {
   content: "";
   padding-bottom: 100%;
@@ -124,7 +135,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
 }
-.info-mi-vi{
+.info-mi-vi {
   color: white;
 }
 /*Fin de Misión y vision*/
