@@ -1,4 +1,3 @@
-
 // Js para la seccion de Seccion_Student
 const centroTitle = document.getElementById("centroTitle");
 const centroContent = document.getElementById("centroContent");
