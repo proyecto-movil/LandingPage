@@ -11,7 +11,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 2rem;
 }
 /*fin barra de scroll*/
-/*Parte de about call*/
+/*Seccion about mobile*/
+.seccion-mobile-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/*fin seccion about mobile*/
+/*seccion de about call*/
 
 .about-call{
   min-height: 100vh;
