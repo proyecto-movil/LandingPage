@@ -1,3 +1,12 @@
+/*Barra de scrool*/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #2699fb;
+  border-radius: 2rem;
+}
+/*fin barra de scroll*/
 /*Parte de Seccion_Student*/
 @media screen and (min-width: 992px) {
   .seccion-student {
@@ -59,25 +68,39 @@
   .seccion_MisionYVision {
     height: 100vh;
   }
+  .mision {
+    transform: translateX(30px);
+  }
+  .vision {
+    transform: translateX(-30px);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mision {
+    margin-top: 20px;
+  }
 }
 .seccion_MisionYVision {
   -webkit-box-shadow: inset -1px -3px 47px -17px rgba(38, 153, 251, 1);
   -moz-box-shadow: inset -1px -3px 47px -17px rgba(38, 153, 251, 1);
   box-shadow: inset -1px -3px 47px -17px rgba(38, 153, 251, 1);
+  display: flex;
+  align-items: center;
 }
 .circulo {
-  width: 100%;
-  /*border-radius: 200px 200px 200px 200px;*/
-  /*-moz-border-radius: 200px 200px 200px 200px;*/
-  /*-webkit-border-radius: 200px 200px 200px 200px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px solid #000000;
   border-radius: 50%;
 }
 .circulo:after {
   content: "";
   padding-bottom: 100%;
-  display: block;
 }
-.vision {
+.mision-vision-content {
+  display: flex;
+  align-items: center;
 }
 /*Fin de Misión y vision*/
