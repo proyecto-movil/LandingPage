@@ -118,6 +118,7 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   background-attachment: fixed;
   position: relative;
+  font-weight: bold;
 }
 
 .mision {
