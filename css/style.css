@@ -1,3 +1,4 @@
+
 /*Barra de scrool*/
 body {
   font-family: "Roboto", sans-serif;
@@ -10,6 +11,25 @@ body::-webkit-scrollbar-thumb {
   border-radius: 2rem;
 }
 /*fin barra de scroll*/
+/*Parte de about call*/
+
+.about-call{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content{
+  margin-top: 5px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .about-description{
+    margin-top: 5%;
+  }
+}
+/*fin about call*/
 /*Parte de Seccion_Student*/
 @media screen and (min-width: 992px) {
   .seccion-student {
