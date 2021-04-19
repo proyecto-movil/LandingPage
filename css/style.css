@@ -217,7 +217,7 @@ blockquote {
 
 .website{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;  
 }
 
 .website img{
@@ -243,15 +243,15 @@ blockquote {
 }
 /*integrantes*/
 .integrantes{
+
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background: #f2f2f2;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    overflow: hidden;
 }
 
 .integrantes figure{
