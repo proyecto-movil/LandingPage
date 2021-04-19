@@ -215,18 +215,7 @@ blockquote {
 
 /* nsootros */
 
-.website{
-    display: flex;
-    justify-content: space-around;  
-}
 
-.website img{
-    width: 48%;
-}
-
-.website .contenedor-textos-main{
-    width: 40%;
-}
 
 .parrafo{
     text-align: justify;
