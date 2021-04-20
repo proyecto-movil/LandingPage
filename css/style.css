@@ -1,3 +1,20 @@
+/*Navbar y home page*/
+.hero{
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.app-color{
+    background-color: #2699fb;
+}
+
+#iphone{
+    margin-top: 16vh;
+}
+
+/* Fin Navbar y home page*/
+
 /*Barra de scrool*/
 
 body {
@@ -211,18 +228,18 @@ blockquote {
 
 /*Fin de Misión y vision*/
 
-
 /*INICIO DE integrantes y sobre nosotros*/
-
 
 /* nsootros */
 
-.parrafo {
+
+
+.parrafo{
     text-align: justify;
     margin-bottom: 20px;
 }
 
-.cta {
+.cta{
     display: inline-block;
     text-decoration: none;
     background-color: #2699fb;
@@ -230,11 +247,9 @@ blockquote {
     border-radius: 8px;
     color: #fff;
 }
-
-
 /*integrantes*/
+.integrantes{
 
-.integrantes {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -245,17 +260,17 @@ blockquote {
     justify-content: space-evenly;
 }
 
-.integrantes figure {
+.integrantes figure{
     position: relative;
     height: 250px;
     width: 200px;
     overflow: hidden;
     border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
-    cursor: pointer;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor:pointer;
 }
 
-.integrantes figure img {
+.integrantes figure img{
     width: 100%;
     height: 100%;
     transition: all 500ms ease-out;
@@ -265,29 +280,29 @@ blockquote {
     overflow: hidden;
 }
 
-.integrantes figure .capa {
+.integrantes figure .capa{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 103, 123, 0.6);
+    background: rgba(0,103,123,0.6);
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
     text-align: center;
 }
 
-.integrantes figure:hover>.capa {
+.integrantes figure:hover>.capa{
     opacity: 1;
     visibility: visible;
 }
 
-.integrantes figure:hover>.capa h3 {
+.integrantes figure:hover>.capa h3{
     margin-top: 70px;
     margin-bottom: 15px;
 }
 
-.integrantes figure .capa h3 {
+.integrantes figure .capa h3{
     color: #fff;
     font-weight: 400;
     margin-bottom: 120px;
@@ -295,7 +310,7 @@ blockquote {
     margin-top: 300px;
 }
 
-.integrantes figure .capa p {
+.integrantes figure .capa p{
     color: #fff;
     font-size: 15px;
     line-height: 1.5;
@@ -303,8 +318,6 @@ blockquote {
     max-width: 220px;
     margin: auto;
 }
-
-
 /*Fin de NOSOTROS*/
 
 
@@ -320,7 +333,7 @@ blockquote {
 
 .card-content {
     background-color: rgb(255, 255, 255);
-    border-color: #2699fb;
+    border-color: #269aff;
     border: radius 25px;
 }
 
@@ -394,7 +407,7 @@ blockquote {
 }
 
 footer {
-    background-color: #2699fb !important;
+    background-color: rgb(85, 228, 247) !important;
 }
 
 #waves-effect {
@@ -405,7 +418,7 @@ footer {
 #btnPlani {
     text-align: center !important;
     border-radius: 5%;
-    background-color: #2699fb;
+    background-color: rgb(80, 211, 235);
     color: rgb(255, 255, 255);
     padding-left: 5%;
     margin-left: 30%;
@@ -415,7 +428,7 @@ footer {
     border: solid;
     border-style: groove;
     border-radius: 1%;
-    border-color: #2699fb;
+    border-color: rgb(74, 208, 241);
     border-style: solid;
 }
 
