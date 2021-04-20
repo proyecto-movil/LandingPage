@@ -87,6 +87,7 @@ blockquote {
 @media screen and (min-width: 992px) {
     .seccion-student {
         height: 100vh;
+        padding-top: 4%;
     }
     .izquierda {
         transform: translateX(60px);
@@ -94,11 +95,6 @@ blockquote {
     .derecha {
         transform: translateX(-60px);
     }
-}
-
-.seccion-student {
-    display: flex;
-    align-items: center;
 }
 
 .tarjeta {
