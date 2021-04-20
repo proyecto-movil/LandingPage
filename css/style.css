@@ -141,7 +141,13 @@ blockquote {
 
 
 /*Fin Seccion_Student*/
-
+/*Seccion_Student*/
+.icon-block {
+    padding: 10px 80px;
+  }
+.icon-block .material-icons {
+      font-size: inherit;
+  }
 
 /*Parte de Seccion Mision y Vision*/
 
