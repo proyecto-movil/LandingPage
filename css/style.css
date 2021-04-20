@@ -87,7 +87,7 @@ blockquote {
 @media screen and (min-width: 992px) {
     .seccion-student {
         height: 100vh;
-        padding-top: 4%;
+        padding-top: 4rem;
     }
     .izquierda {
         transform: translateX(60px);
@@ -122,7 +122,7 @@ blockquote {
     position: relative;
     z-index: 3;
 }
-@media screen and (max-width: 1400px) and (min-width: 992px){
+@media screen and (max-width: 1500px) and (min-width: 992px){
     .seccion-student{
         margin-bottom: 10%;
     }
