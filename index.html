@@ -39,18 +39,21 @@
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#pay-plans">Pay Plans</a></li>
                 </ul>
-                <!--Responsive-->
-                <ul class="sidenav" id="menu-responsive">
-                    <li><a href="#mission-vision">Mission and vision</a></li>
-                    <li><a href="#contact" >Contact</a></li>
-                    <li><a href="#student-profile">Student Profile</a></li>
-                    <li><a href="#tutor-profile">Tutor Profile</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#pay-plans">Pay Plans</a></li>
-                </ul>
+                
             </div>
         </nav>
     </div>
+
+    <!--Responsive-->
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="#mission-vision">Mission and vision</a></li>
+        <li><a href="#contact" >Contact</a></li>
+        <li><a href="#student-profile">Student Profile</a></li>
+        <li><a href="#tutor-profile">Tutor Profile</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#pay-plans">Pay Plans</a></li>
+    </ul>
+
     <!--!NavBar-->
     <!--Full background image, headings-->
     <div id="hero" class="hero valign-wrapper">
@@ -83,7 +86,7 @@
     <!--!Full background image, headings-->
 
     <!--Seccion Mobile about-->
-    <div class="container seccion-mobile-about">
+    <div class="container seccion-mobile-about" id="about-us">
         <div class="row">
             <div class="col m12 l6 mobile-reserve">
                 <img src="./img/About_Mobile/mobile-with-hand.png" class="responsive-img" alt="mobile-app" />
@@ -364,6 +367,13 @@
     <script src="js/app.js"></script>
     <!-- Nuevo -->
     
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+        });
+    </script>
+
 
 </body>
 

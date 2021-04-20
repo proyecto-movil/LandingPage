@@ -56,13 +56,3 @@ window.addEventListener("resize", () => {
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
 })
-
-
-// Navbar
-
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-});
-        
-   
