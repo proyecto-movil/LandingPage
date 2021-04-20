@@ -235,20 +235,16 @@ blockquote {
 /*INICIO DE integrantes y sobre nosotros*/
 
 /* nsootros */
-
+.nosotros-seccion{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .parrafo{
-    text-align: justify;
     margin-bottom: 20px;
 }
 
-.cta{
-    display: inline-block;
-    text-decoration: none;
-    background-color: #2699fb;
-    padding: 12px 15px;
-    border-radius: 8px;
-    color: #fff;
-}
 /*integrantes*/
 .integrantes{
 
