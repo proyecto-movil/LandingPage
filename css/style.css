@@ -126,7 +126,11 @@ blockquote {
     position: relative;
     z-index: 3;
 }
-
+@media screen and (max-width: 1400px) and (min-width: 992px){
+    .seccion-student{
+        margin-bottom: 10%;
+    }
+}
 @media screen and (min-width: 600px) and (min-height: 600px) {
     .tarjeta {
         height: 46rem;
