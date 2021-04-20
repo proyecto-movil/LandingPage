@@ -87,6 +87,7 @@ blockquote {
 @media screen and (min-width: 992px) {
     .seccion-student {
         height: 100vh;
+        padding-top: 4rem;
     }
     .izquierda {
         transform: translateX(60px);
@@ -94,11 +95,6 @@ blockquote {
     .derecha {
         transform: translateX(-60px);
     }
-}
-
-.seccion-student {
-    display: flex;
-    align-items: center;
 }
 
 .tarjeta {
@@ -126,7 +122,7 @@ blockquote {
     position: relative;
     z-index: 3;
 }
-@media screen and (max-width: 1400px) and (min-width: 992px){
+@media screen and (max-width: 1500px) and (min-width: 992px){
     .seccion-student{
         margin-bottom: 10%;
     }
@@ -235,22 +231,16 @@ blockquote {
 /*INICIO DE integrantes y sobre nosotros*/
 
 /* nsootros */
-
-
-
+.nosotros-seccion{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .parrafo{
-    text-align: justify;
     margin-bottom: 20px;
 }
 
-.cta{
-    display: inline-block;
-    text-decoration: none;
-    background-color: #2699fb;
-    padding: 12px 15px;
-    border-radius: 8px;
-    color: #fff;
-}
 /*integrantes*/
 .integrantes{
 
