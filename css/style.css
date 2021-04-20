@@ -1,4 +1,9 @@
 /*Navbar y home page*/
+html{
+    scroll-behavior: smooth;
+}
+
+
 .hero{
     margin: auto;
     text-align: center;
