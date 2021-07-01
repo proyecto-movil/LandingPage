@@ -3,7 +3,12 @@ html{
     scroll-behavior: smooth;
 }
 
-
+.about-product{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
 .hero{
     margin: auto;
     text-align: center;
