@@ -4,10 +4,7 @@ html{
 }
 
 .about-product{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-flow: column wrap;
+  margin-bottom: 10%;
 }
 .hero{
     margin: auto;
@@ -18,9 +15,12 @@ html{
 .app-color{
     background-color: #2699fb;
 }
-
-#iphone{
-    margin-top: 16vh;
+#laptop{
+    background-image: url("../img/home-page/front-page.jpg");
+    background-position-x: 53%;
+    background-position-y: 40%;
+    background-size: 74% 80%;
+    background-repeat: no-repeat;
 }
 
 /* Fin Navbar y home page*/
