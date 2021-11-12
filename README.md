@@ -14,4 +14,3 @@ Ademas de poder hacer las reservas via la pagina web.
 ILenguaje te brinda una aplicación donde puede realizar tus reservas y tener
 recordatorios de tus siguiente sesión
 
-### *Team Bichotas*
